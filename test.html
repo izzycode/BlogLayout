@@ -135,22 +135,33 @@
 
     </section>
 
+    <style>
+      #categories-content {
+        display: flex;
+        justify-content: center;
+
+      }
+    </style>
+
     <aside id="category-list">
-      <ul>
-        <li>category1</li>
-        <li>category2</li>
-        <li>
-          Categories
-          <ul>
-            <li>category1</li>
-            <li>category2</li>
-            <li>category3</li>
-            <li>category4</li>
+      <nav class="navbar navbar-inverse">
+        <div id="categories-content" class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Category1</a></li>
+            <li><a href="#">Category2</a></li>
+            <li class="dropdown open">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">List<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Category1</a></li>
+                <li><a href="#">Category2</a></li>
+                <li><a href="#">Category3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Category3</a></li>
+            <li><a href="#">Category4</a></li>
           </ul>
-        </li>
-        <li>category3</li>
-        <li>category4</li>
-      </ul>
+        </div>
+      </nav>
     </aside>
 
     <main id="recent-posts">
@@ -202,12 +213,15 @@
               .owl-item {
                 height: 50vh;
               }
+              img {
+
+              }
             </style>
 
             <script>
               $(document).ready(function() {
                 $('.owl-carousel').owlCarousel({
-                  items: 5,
+                  items: 4,
                   loop: true,
                   margin: 10,
                   merge: true,
