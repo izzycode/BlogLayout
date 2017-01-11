@@ -7,16 +7,15 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
     <!-- Load Bootstrap -->
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Load FontAwesome -->
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
     <!-- Custom Styles -->
-    <!-- <link rel="stylesheet" href="assets/css/side-bar.css"> -->
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://izzycode.github.io/BlogLayout/assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/docs.theme.min.css">
 
 
 
@@ -35,98 +34,166 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="slide-collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <div class="collapse navbar-left" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">What's Bash</a></li>
-            <li><a href="#">How it Works</a></li>
-            <li><a href="#">Venue Sign Up</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a clcass="active" href="#">Blog</a></li>
+    <div id="main-navigation">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="slide-collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div class="collapse navbar-left" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">What's Bash</a></li>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Venue Sign Up</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a clcass="active" href="#">Blog</a></li>
+            </ul>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Venue Login</a></li>
           </ul>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Venue Login</a></li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+    </div><!-- /#main-navigation -->
 
-    <div class="container">
-      <div class="row">
+    <section id="featured-posts">
+      <div class="owl-carousel owl-theme">
 
-        <section id="featured-posts" class="col-lg-12">
-          <div class="large-12 columns">
-            <div class="owl-carousel owl-theme">
+        <div class="item post featured-post truncate" data-merge="2">
+          <img src="assets/images/test-image.jpg" alt="" title="">
+          <h5>Title</h5>
+          <span><i class="fa fa-clock-o" aria-hidden="true"></i> Date</span>
+          <span><i class="fa fa-user" aria-hidden="true"></i> Author</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
+        </div>
 
-              <div class="item" data-merge="2">
-                <div class="recent-post">
-                  <img src="assets/images/test-image.jpg" alt="" title="">
-                  <h2>Title</h2>
-                  <small>Date</small> |
-                  <small>Author</small>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
-                </div>
-              </div>
-              <div class="item" data-merge="2">
-                <div class="recent-post">
-                  <img src="assets/images/test-image.jpg" alt="" title="">
-                  <h2>Title</h2>
-                  <small>Date</small> |
-                  <small>Author</small>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
-                </div>
-              </div>
-              <div class="item" data-merge="2">
-                <div class="recent-post">
-                  <img src="assets/images/test-image.jpg" alt="" title="">
-                  <h2>Title</h2>
-                  <small>Date</small> |
-                  <small>Author</small>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
-                </div>
-              </div>
-              <div class="item" data-merge="2">
-                <div class="recent-post">
-                  <img src="assets/images/test-image.jpg" alt="" title="">
-                  <h2>Title</h2>
-                  <small>Date</small> |
-                  <small>Author</small>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
-
-                </div>
-              </div>
-
-              <style>
-                .owl-item {
-                  min-height: 500px !important;
-                }
-              </style>
-
-            </div>
+        <div class="item post featured-post truncate" data-merge="2">
+          <img src="assets/images/drinks-image.jpg" alt="" title="">
+          <h5>Title</h5>
+          <span><i class="fa fa-clock-o" aria-hidden="true"></i> Date</span>
+          <span><i class="fa fa-user" aria-hidden="true"></i> Author</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ipsa harum culpa voluptate exercitationem omnis commodi ratione, nisi, quasi autem quo a eaque, velit, perspiciatis consectetur eius at pariatur assumenda? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eveniet eligendi natus nihil alias sed neque consequuntur minus quod libero, molestiae, quaerat veritatis ad quam facilis aperiam tempore reiciendis quae!</p>
+        </div>
+        <div class="item" data-merge="2">
+          <div class="post featured-post truncate">
+            <img src="assets/images/test-image.jpg" alt="" title="">
+            <h5>Title</h5>
+            <span><i class="fa fa-clock-o" aria-hidden="true"></i> Date</span>
+            <span><i class="fa fa-user" aria-hidden="true"></i> Author</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
           </div>
-        </section>
-
+        </div>
+        <div class="item" data-merge="2">
+          <div class="post featured-post truncate">
+            <img src="assets/images/drinks-image.jpg" alt="" title="">
+            <h5>Title</h5>
+            <span><i class="fa fa-clock-o" aria-hidden="true"></i> Date</span>
+            <span><i class="fa fa-user" aria-hidden="true"></i> Author</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum voluptatibus mollitia ipsum impedit illo error consequatur voluptas alias iusto, laborum in iste. Inventore ea in eaque, tempora minima rem!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <style>
+
+      .post {
+        margin: 10px;
+        text-align: center;
+      }
+
+      .post:hover{
+        text-decoration: none;
+        background-color: pink;
+      }
+
+      .post span {
+        font-style: italic;
+        font-weight: 100;
+        font-size: 0.8rem;
+        color: #878787;
+      }
+
+      .post p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+      }
+
+      .post img {
+        position: relative;
+        margin: 0 auto;
+        max-height: 360px;
+        width: auto;
+      }
+
+      .truncate {
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .post-link:hover {
+        text-decoration: none;
+      }
+
       #featured-posts {
         height: 500px;
       }
+
+      .featured-post img {
+        max-height: 360;
+        width: auto;
+      }
+
+      div.recent-post {
+        max-height: 500px;
+        border: 2px solid red;
+      }
+
       #categories-content {
         display: flex;
         justify-content: center;
+      }
 
+      @media (max-width: 740px) {
+        #categories-content ul li:not(#categories-selector) {
+          display: none;
+        }
+      }
+      #categories-selector {
+        padding: 0 30px 0 0;
+      }
+      .owl-item {
+        height: 480px;
+      }
+
+      .recent-post h5 {
+        color: #ED1943;
+        font-family: "Oswald", sans-serif;
+        font-size: 18px;
+      }
+
+      .recent-post>div {
+        min-height: 40%;
+        width: 100%;
+        overflow: hidden;
+      }
+      .recent-post>div>img {
+        max-height: 100;
+        width: auto;
+      }
+      .grow {
+        transition: all .3s ease-in-out;
+      }
+      .grow:hover {
+        transform: scale(1.1);
       }
     </style>
 
@@ -140,6 +207,7 @@
             <li id="categories-selector">
               <div class="form-group">
                 <select class="form-control navbar-text">
+                  <option>Categories</option>
                   <option value="1">Category1</option>
                   <option value="2">Category2</option>
                   <option value="3">Category3</option>
@@ -157,108 +225,124 @@
       </nav>
     </aside>
 
-
-
-
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
-        <main id="recent-posts" class="col-lg-12">
+        <main id="recent-posts" class="col-lg-12"> -->
+        <main id="recent-posts" class="container-fluid">
 
           <!-- Projects Row -->
-          <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#">
-                <img class="img-responsive" src="assets/images/test-image.jpg" alt="">
-              </a>
-              <h3>
-                <a href="#">Project Name</a>
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#">
-                <img class="img-responsive" src="assets/images/test-image.jpg" alt="">
-              </a>
-              <h3>
-                <a href="#">Project Name</a>
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#">
-                <img class="img-responsive" src="assets/images/test-image.jpg" alt="">
-              </a>
-              <h3>
-                <a href="#">Project Name</a>
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#">
-                <img class="img-responsive" src="assets/images/test-image.jpg" alt="">
-              </a>
-              <h3>
-                <a href="#">Project Name</a>
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#">
-                <img class="img-responsive" src="assets/images/test-image.jpg" alt="">
-              </a>
-              <h3>
-                <a href="#">Project Name</a>
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
+          <div class="row-fluid">
 
+            <div class="col-md-4 col-sm-6" >
+              <a  href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/drinks-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-2">
+              <a href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/dj-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-2">
+              <a href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/test-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-6" >
+              <a  href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/drinks-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-2">
+              <a href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/dj-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-2">
+              <a href="#" class="post-link">
+                <div class="post recent-post">
+                  <div>
+                    <img class="img-responsive grow" src="assets/images/test-image.jpg" alt="">
+                  </div>
+                  <h3>Project Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos error, consequuntur eveniet veniam, rem et quasi, temporibus, voluptatibus ipsa id quos nulla deleniti magni veritatis dicta reiciendis molestiae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam qui modi facere, autem nisi. In ipsam maiores beatae molestiae, officia pariatur voluptates doloremque excepturi cumque obcaecati veniam ut officiis.Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+              </a>
+            </div>
+
+            </a>
+          </div>
         </main>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
+      <!-- </div>
+    </div> -->
 
 
       <style>
-        #categories-selector {
-          padding: 0 30px 0 0;
-        }
-        .owl-item {
-          height: 50vh;
-        }
-        img {
 
-        }
       </style>
 
-      <script>
-        $(document).ready(function() {
-          $('.owl-carousel').owlCarousel({
-            items: 4,
-            loop: true,
-            margin: 10,
-            merge: true,
-            responsive: {
-              678: {
-                mergeFit: true
-              },
-              1000: {
-                mergeFit: false
-              }
-            }
-          });
-        })
-      </script>
-
     <!-- Load Scripts -->
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/core.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/highlight.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/owl.support.js"></script>
-    <script type="text/javascript" src="https://izzycode.github.io/BlogLayout/assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/core.js"></script>
+    <script type="text/javascript" src="assets/js/highlight.js"></script>
+    <script type="text/javascript" src="assets/js/owl.support.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 
-
+    <script>
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          items: 4,
+          loop: true,
+          margin: 10,
+          merge: true,
+          responsive: {
+            678: {
+              mergeFit: true
+            },
+            1000: {
+              mergeFit: false
+            }
+          }
+        });
+      })
+    </script>
 
     <script type="text/javascript" src="assets/js/scripts.js"></script>
 
